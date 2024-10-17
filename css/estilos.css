@@ -1,0 +1,135 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+
+.conteiner {
+    display: flex;
+    background: #f3f3f3;
+    padding: 70px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.celulares {
+    width: 600px;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+
+.conta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    width: 550px;
+    height: 520px;
+    margin: 0 auto;
+    border: 2px solid #ebebeb;
+    padding: 70px;
+}
+
+.insta_logo {
+    max-height: 70px;
+    max-width: 200px;
+    height: auto;
+    width: auto;
+    margin: 20px auto;
+}
+
+.perfil {
+    max-height: 120px;
+    max-width: 120px;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 270px;
+    margin-top: 20px;
+    border-radius: 7px;
+    background: #0097fd;
+    border: none;
+    cursor: pointer;
+}
+
+.botao p {
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin: 0;
+}
+
+.remove {
+    margin-top: 15px;
+    color: #0097fd;
+    text-decoration: none;
+}
+
+.re {
+    text-decoration: none;
+}
+
+.conteiner2 {
+    width: 630px;
+    height: auto;
+    background: white;
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px; 
+    border: 2px solid #ebebeb;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.conteiner2 p {
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.store-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.store-badge {
+    width: 140px; 
+    height: auto;
+}
+
+.final {
+    width: 380px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 15px;
+}
+
+.final p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.img1 {
+    width: 140px; 
+    height: auto; 
+    margin: 0 10px; 
+    vertical-align: middle; 
+}
